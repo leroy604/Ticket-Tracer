@@ -3,11 +3,14 @@
     "name": "ticket-tracker",
     "slug": "ticket-tracker",
     "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": ["ios", "android", "web"],
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "tickettracker",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+      "entryPoint": "node_modules/expo/AppEntry.js",
     "ios": {
       "supportsTablet": true
     },
